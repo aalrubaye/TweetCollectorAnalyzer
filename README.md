@@ -22,6 +22,5 @@ The idea of using a time window naturally leads to weighted networks. If two use
 
 ##An example of extracted netwroks:
 ![florida_diabetes](https://cloud.githubusercontent.com/assets/17988691/21747648/e7e28a8e-d53b-11e6-876e-1da968567314.png)
-<img width="783" alt="alg3-old"
 
 
