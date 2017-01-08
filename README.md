@@ -7,8 +7,6 @@ In this code we aimed to build and analyze networks of social groups on Twitter 
 after 60 days of collecting tweets, was implementing the filtration process over the dataset we stored. In order to extract those tweets 
 were posted from the United States, we needed to filter them out based on the places they originated from. Initially, geocoding parameters were used to retrieve locations for the collected tweets. Geocoding is a process of describing locations based on their postal address or spatial positions as a global address. Geographic coordinates specify a set of values to indicate a particular location on the earth.
 
-src="https://cloud.githubusercontent.com/assets/17988691/21747655/faa1e994-d53b-11e6-9207-df5d6a01aacd.png">
-
 ##Networks creation
 In our work, the users that tweeted from the United States are considered to be the nodes and two users are connected to each other if both have mentioned the same health condition in their tweets. According to the this definition, all tweets that mentioned the same health conditions would be related to each other. Therefore, to construct a network of a specific health conditions by considering all tweets in the period of 60 days, the network would be too densely connected. In other words, for each one of the health conditions we would end up with a clique of n nodes, where n is the total number of tweets that mentioned the same disease. In this case, the generated networks would not show any interesting characteristic.
 
